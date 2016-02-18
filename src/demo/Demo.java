@@ -21,9 +21,11 @@ public class Demo {
 			appInfoList.add(Parser.extract(url));
 		}
 
-		Exporter.exportToCsv(appInfoList);
+//		Exporter.exportToCsv(appInfoList);
+		Exporter.exportToXML(appInfoList);
 		System.out.println("Done!");
 
+		
 	}
 
 }
